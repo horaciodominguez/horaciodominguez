@@ -1,10 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-labelledby="t">
-  <title id="t">Featured work</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img">
   <defs>
     <style>
-      @import url("https://fonts.googleapis.com/css2?family=Syne:wght@700&amp;family=Plus+Jakarta+Sans:wght@400;500;600&amp;display=swap");
-      .display { font-family: Syne, "Segoe UI", system-ui, sans-serif; font-weight: 700; }
-      .body { font-family: "Plus Jakarta Sans", "Segoe UI", system-ui, sans-serif; }
+      .display { font-family: "Segoe UI", Arial, sans-serif; font-weight: 700; }
+      .body { font-family: "Segoe UI", Arial, sans-serif; }
     </style>
     <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#ffffff" stop-opacity="0.07"/>
@@ -20,39 +18,35 @@
   <text x="80" y="48" class="display" font-size="36" fill="rgba(255,255,255,0.92)">Trabajo / Work</text>
   <text x="80" y="78" class="body" font-size="15" fill="rgba(255,255,255,0.55)">Casos reales: WordPress, plugins, ecommerce y frontend moderno</text>
 
-  <!-- Card 1 -->
   <g transform="translate(80,108)">
     <rect width="540" height="130" rx="12" fill="url(#glass)" stroke="rgba(255,255,255,0.1)"/>
     <rect width="540" height="130" rx="12" fill="url(#cardGlow)"/>
     <text x="24" y="40" class="display" font-size="22" fill="rgba(255,255,255,0.94)">FilaColorMatch</text>
-    <text x="24" y="68" class="body" font-size="14" fill="#7a9bb8">React · TypeScript · Vite</text>
+    <text x="24" y="68" class="body" font-size="14" fill="#7a9bb8">React / TypeScript / Vite</text>
     <text x="24" y="98" class="body" font-size="14" fill="rgba(255,255,255,0.55)">Match de modelos 3D por stock de filamento</text>
   </g>
 
-  <!-- Card 2 -->
   <g transform="translate(660,108)">
     <rect width="540" height="130" rx="12" fill="url(#glass)" stroke="rgba(255,255,255,0.1)"/>
     <rect width="540" height="130" rx="12" fill="url(#cardGlow)"/>
     <text x="24" y="40" class="display" font-size="22" fill="rgba(255,255,255,0.94)">Soloma</text>
-    <text x="24" y="68" class="body" font-size="14" fill="#7a9bb8">WordPress · WooCommerce · ACF</text>
+    <text x="24" y="68" class="body" font-size="14" fill="#7a9bb8">WordPress / WooCommerce / ACF</text>
     <text x="24" y="98" class="body" font-size="14" fill="rgba(255,255,255,0.55)">Theme ecommerce luxury end-to-end</text>
   </g>
 
-  <!-- Card 3 -->
   <g transform="translate(80,258)">
     <rect width="540" height="130" rx="12" fill="url(#glass)" stroke="rgba(255,255,255,0.1)"/>
     <rect width="540" height="130" rx="12" fill="url(#cardGlow)"/>
     <text x="24" y="40" class="display" font-size="22" fill="rgba(255,255,255,0.94)">UNE Espacio Abierto</text>
-    <text x="24" y="68" class="body" font-size="14" fill="#7a9bb8">WordPress · CPT · ACF · PHP</text>
+    <text x="24" y="68" class="body" font-size="14" fill="#7a9bb8">WordPress / CPT / ACF / PHP</text>
     <text x="24" y="98" class="body" font-size="14" fill="rgba(255,255,255,0.55)">Portal de evento con arquitectura de contenido</text>
   </g>
 
-  <!-- Card 4 -->
   <g transform="translate(660,258)">
     <rect width="540" height="130" rx="12" fill="url(#glass)" stroke="rgba(255,255,255,0.1)"/>
     <rect width="540" height="130" rx="12" fill="url(#cardGlow)"/>
     <text x="24" y="40" class="display" font-size="22" fill="rgba(255,255,255,0.94)">WP Country Search</text>
-    <text x="24" y="68" class="body" font-size="14" fill="#7a9bb8">WordPress · WooCommerce · PHP</text>
-    <text x="24" y="98" class="body" font-size="14" fill="rgba(255,255,255,0.55)">Plugin: filtrar productos por país</text>
+    <text x="24" y="68" class="body" font-size="14" fill="#7a9bb8">WordPress / WooCommerce / PHP</text>
+    <text x="24" y="98" class="body" font-size="14" fill="rgba(255,255,255,0.55)">Plugin: filtrar productos por pais</text>
   </g>
 </svg>
