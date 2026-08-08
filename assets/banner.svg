@@ -1,61 +1,79 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="520" viewBox="0 0 1280 520" role="img" aria-labelledby="title desc">
   <title id="title">Horacio Dominguez</title>
-  <desc id="desc">Full Stack Web Developer  Portfolio 2026 profile banner</desc>
+  <desc id="desc">Hero banner aligned with Portfolio 2026</desc>
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Syne:wght@700&amp;family=Plus+Jakarta+Sans:wght@400;500;600&amp;display=swap");
+      .display { font-family: Syne, "Segoe UI", system-ui, sans-serif; font-weight: 700; }
+      .body { font-family: "Plus Jakarta Sans", "Segoe UI", system-ui, sans-serif; }
+    </style>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#0b0d10"/>
-      <stop offset="45%" stop-color="#121820"/>
+      <stop offset="42%" stop-color="#10151c"/>
       <stop offset="100%" stop-color="#0b0d10"/>
     </linearGradient>
-    <radialGradient id="glowL" cx="12%" cy="0%" r="55%">
-      <stop offset="0%" stop-color="#7a9bb8" stop-opacity="0.28"/>
+    <radialGradient id="glowL" cx="8%" cy="0%" r="58%">
+      <stop offset="0%" stop-color="#7a9bb8" stop-opacity="0.32"/>
       <stop offset="55%" stop-color="#7a9bb8" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="glowR" cx="88%" cy="22%" r="45%">
-      <stop offset="0%" stop-color="#7a9bb8" stop-opacity="0.12"/>
+    <radialGradient id="glowR" cx="92%" cy="18%" r="48%">
+      <stop offset="0%" stop-color="#7a9bb8" stop-opacity="0.14"/>
       <stop offset="50%" stop-color="#7a9bb8" stop-opacity="0"/>
     </radialGradient>
-    <linearGradient id="hairline" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="glassFill" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.03"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#7a9bb8" stop-opacity="0"/>
-      <stop offset="20%" stop-color="#7a9bb8" stop-opacity="0.45"/>
-      <stop offset="80%" stop-color="#7a9bb8" stop-opacity="0.45"/>
+      <stop offset="18%" stop-color="#7a9bb8" stop-opacity="0.5"/>
+      <stop offset="82%" stop-color="#7a9bb8" stop-opacity="0.5"/>
       <stop offset="100%" stop-color="#7a9bb8" stop-opacity="0"/>
     </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="18" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="noise" width="140" height="140" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="18" r="0.7" fill="#fff" opacity="0.045"/>
+      <circle cx="48" cy="42" r="0.6" fill="#fff" opacity="0.035"/>
+      <circle cx="86" cy="22" r="0.8" fill="#fff" opacity="0.04"/>
+      <circle cx="110" cy="70" r="0.55" fill="#fff" opacity="0.03"/>
+      <circle cx="30" cy="96" r="0.7" fill="#fff" opacity="0.04"/>
+      <circle cx="72" cy="112" r="0.6" fill="#fff" opacity="0.035"/>
+      <circle cx="128" cy="38" r="0.65" fill="#fff" opacity="0.04"/>
+      <circle cx="18" cy="128" r="0.5" fill="#fff" opacity="0.03"/>
+      <circle cx="98" cy="98" r="0.7" fill="#fff" opacity="0.04"/>
+    </pattern>
   </defs>
 
-  <rect width="1200" height="360" fill="url(#bg)"/>
-  <rect width="1200" height="360" fill="url(#glowL)"/>
-  <rect width="1200" height="360" fill="url(#glowR)"/>
-  <rect x="64" y="1" width="1072" height="1" fill="url(#hairline)" opacity="0.6"/>
+  <rect width="1280" height="520" fill="url(#bg)"/>
+  <rect width="1280" height="520" fill="url(#glowL)"/>
+  <rect width="1280" height="520" fill="url(#glowR)"/>
+  <rect width="1280" height="520" fill="url(#noise)" opacity="0.9"/>
 
-  <text
-    x="72"
-    y="168"
-    fill="rgba(255,255,255,0.92)"
-    font-family="Syne, Plus Jakarta Sans, system-ui, sans-serif"
-    font-size="64"
-    font-weight="700"
-    letter-spacing="-1.5"
-  >Horacio Dominguez</text>
+  <!-- soft atmosphere orb -->
+  <circle cx="1080" cy="120" r="120" fill="#7a9bb8" opacity="0.06" filter="url(#soft)"/>
 
-  <text
-    x="72"
-    y="220"
-    fill="#7a9bb8"
-    font-family="Plus Jakarta Sans, system-ui, sans-serif"
-    font-size="24"
-    font-weight="500"
-    letter-spacing="0.5"
-  >Full Stack Web Developer</text>
+  <rect x="72" y="36" width="1136" height="1" fill="url(#hair)" opacity="0.7"/>
 
-  <text
-    x="72"
-    y="268"
-    fill="rgba(255,255,255,0.55)"
-    font-family="Plus Jakarta Sans, system-ui, sans-serif"
-    font-size="16"
-    font-weight="400"
-  >20+ years · WordPress / WooCommerce · React / TypeScript</text>
+  <!-- brand mark -->
+  <text x="80" y="120" class="display" font-size="18" fill="#7a9bb8" letter-spacing="3">PORTFOLIO 2026</text>
 
-  <rect x="64" y="358" width="1072" height="1" fill="url(#hairline)" opacity="0.35"/>
+  <text x="76" y="210" class="display" font-size="78" fill="rgba(255,255,255,0.94)" letter-spacing="-2.2">Horacio Dominguez</text>
+
+  <text x="80" y="268" class="body" font-size="28" font-weight="500" fill="rgba(255,255,255,0.9)">Desarrollador Web Full Stack</text>
+  <text x="80" y="304" class="body" font-size="22" font-weight="400" fill="#7a9bb8">Full Stack Web Developer</text>
+
+  <text x="80" y="360" class="body" font-size="17" fill="rgba(255,255,255,0.55)">ES — Más de 20 años creando soluciones digitales funcionales, accesibles y optimizadas.</text>
+  <text x="80" y="388" class="body" font-size="17" fill="rgba(255,255,255,0.55)">EN — 20+ years building functional, accessible, optimized digital solutions.</text>
+
+  <!-- glass CTA strip -->
+  <rect x="80" y="424" width="520" height="52" rx="10" fill="url(#glassFill)" stroke="rgba(255,255,255,0.1)"/>
+  <text x="104" y="456" class="body" font-size="15" font-weight="600" fill="rgba(255,255,255,0.88)">horaciodominguez.com  ·  WordPress / Woo  ·  React / TypeScript</text>
+
+  <rect x="72" y="500" width="1136" height="1" fill="url(#hair)" opacity="0.4"/>
 </svg>
