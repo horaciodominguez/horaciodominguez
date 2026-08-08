@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Horacio Dominguez</title>
+  <desc id="desc">Full Stack Web Developer  Portfolio 2026 profile banner</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0b0d10"/>
+      <stop offset="45%" stop-color="#121820"/>
+      <stop offset="100%" stop-color="#0b0d10"/>
+    </linearGradient>
+    <radialGradient id="glowL" cx="12%" cy="0%" r="55%">
+      <stop offset="0%" stop-color="#7a9bb8" stop-opacity="0.28"/>
+      <stop offset="55%" stop-color="#7a9bb8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowR" cx="88%" cy="22%" r="45%">
+      <stop offset="0%" stop-color="#7a9bb8" stop-opacity="0.12"/>
+      <stop offset="50%" stop-color="#7a9bb8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hairline" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7a9bb8" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#7a9bb8" stop-opacity="0.45"/>
+      <stop offset="80%" stop-color="#7a9bb8" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#7a9bb8" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="360" fill="url(#bg)"/>
+  <rect width="1200" height="360" fill="url(#glowL)"/>
+  <rect width="1200" height="360" fill="url(#glowR)"/>
+  <rect x="64" y="1" width="1072" height="1" fill="url(#hairline)" opacity="0.6"/>
+
+  <text
+    x="72"
+    y="168"
+    fill="rgba(255,255,255,0.92)"
+    font-family="Syne, Plus Jakarta Sans, system-ui, sans-serif"
+    font-size="64"
+    font-weight="700"
+    letter-spacing="-1.5"
+  >Horacio Dominguez</text>
+
+  <text
+    x="72"
+    y="220"
+    fill="#7a9bb8"
+    font-family="Plus Jakarta Sans, system-ui, sans-serif"
+    font-size="24"
+    font-weight="500"
+    letter-spacing="0.5"
+  >Full Stack Web Developer</text>
+
+  <text
+    x="72"
+    y="268"
+    fill="rgba(255,255,255,0.55)"
+    font-family="Plus Jakarta Sans, system-ui, sans-serif"
+    font-size="16"
+    font-weight="400"
+  >20+ years · WordPress / WooCommerce · React / TypeScript</text>
+
+  <rect x="64" y="358" width="1072" height="1" fill="url(#hairline)" opacity="0.35"/>
+</svg>
