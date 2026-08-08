@@ -59,15 +59,16 @@
 
 ### Stats
 
+<!-- github-readme-stats.vercel.app is often 503; local PNGs generated from GitHub API -->
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=horaciodominguez&show_icons=true&hide_border=true&bg_color=0b0d10&title_color=7a9bb8&icon_color=7a9bb8&text_color=e8ecf0&ring_color=7a9bb8" alt="GitHub stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=horaciodominguez&layout=compact&hide_border=true&bg_color=0b0d10&title_color=7a9bb8&text_color=e8ecf0" alt="Top languages" />
+  <img height="170" src="./assets/stats.png" alt="GitHub stats" />
+  <img height="170" src="./assets/top-langs.png" alt="Top languages" />
 </div>
 
 <br />
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=horaciodominguez&theme=dark&background=0b0d10&ring=7a9bb8&fire=7a9bb8&currStreakLabel=7a9bb8&sideLabels=e8ecf0&dates=e8ecf0&hide_border=true" alt="GitHub streak" />
+  <img src="https://streak-stats.demolab.com/?user=horaciodominguez&amp;theme=dark&amp;background=0b0d10&amp;ring=7a9bb8&amp;fire=7a9bb8&amp;currStreakLabel=7a9bb8&amp;sideLabels=e8ecf0&amp;dates=e8ecf0&amp;hide_border=true" alt="GitHub streak" />
 </div>
 
 ---
