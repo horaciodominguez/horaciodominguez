@@ -24,16 +24,17 @@ I build functional, accessible, and optimized digital solutions. I've been doing
 ### Stack
 
 <div align="center">
-  <img src="./assets/stack.png" alt="Stack: Backend, Frontend, Integrations and AI-assisted development" width="100%" />
+  <img src="https://cdn.jsdelivr.net/gh/horaciodominguez/horaciodominguez@main/assets/stack.png?v=20260814" alt="Stack: Backend, Frontend, Integrations and AI-assisted development" width="100%" />
 </div>
 
 ---
 
 ### Stats
 
+<!-- github-readme-stats.vercel.app often 503 / DEPLOYMENT_PAUSED; local PNGs -->
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=horaciodominguez&show_icons=true&hide_border=true&bg_color=0b0d10&title_color=7a9bb8&icon_color=7a9bb8&text_color=e8ecf0&ring_color=7a9bb8&cache_seconds=3600" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=horaciodominguez&layout=compact&hide_border=true&bg_color=0b0d10&title_color=7a9bb8&text_color=e8ecf0&cache_seconds=3600" alt="Top languages" />
+  <img height="170" src="./assets/stats.png" alt="GitHub stats" />
+  <img height="170" src="./assets/top-langs.png" alt="Top languages" />
 </div>
 
 ---
