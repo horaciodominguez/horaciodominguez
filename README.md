@@ -1,10 +1,4 @@
 <div align="center">
-  <img src="./assets/banner.png" alt="Horacio Dominguez - Full Stack Web Developer" width="100%" />
-</div>
-
-<br />
-
-<div align="center">
   <a href="https://horaciodominguez.com">
     <img src="https://img.shields.io/badge/Portfolio-horaciodominguez.com-7a9bb8?style=for-the-badge&logo=safari&logoColor=white&labelColor=0b0d10" alt="Portfolio" />
   </a>
@@ -29,18 +23,8 @@ I build functional, accessible, and optimized digital solutions. I've been doing
 
 ### Stack
 
-**Core**
-
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=php,mysql,js,html,css,wordpress" alt="Core stack" />
-</div>
-
-<br />
-
-**Modern**
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=react,ts,nextjs,tailwind,supabase,vite,docker,nodejs" alt="Modern stack" />
+  <img src="./assets/stack.png" alt="Stack: Backend, Frontend, Integrations and AI-assisted development" width="100%" />
 </div>
 
 ---
