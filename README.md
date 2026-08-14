@@ -21,21 +21,9 @@
 
 ---
 
-### Hola, soy Horacio / Hi, I'm Horacio
+### Hi, I'm Horacio
 
-**ES** — Desarrollador Web Full Stack con mas de 20 anos creando soluciones digitales funcionales, accesibles y optimizadas. Base solida en PHP, WordPress y WooCommerce; capa moderna en React, TypeScript y Next.js.
-
-**EN** — Full Stack Web Developer with 20+ years building functional, accessible, optimized digital solutions. Solid PHP / WordPress / WooCommerce foundation, plus a modern React / TypeScript / Next.js layer.
-
----
-
-### Trabajando en / Working on
-
-- [**FilaColorMatch**](https://filacolormatch.vercel.app/) — React · TypeScript · Vite · [repo](https://github.com/horaciodominguez/filacolormatch)
-- [**Soloma**](https://soloma.co/) — WordPress · WooCommerce · theme a medida
-- [**UNE Espacio Abierto**](https://uneespacioabierto.com.ar/) — WordPress · CPT · ACF
-- [**WP Country Search**](https://github.com/horaciodominguez/wp-country-search) — Plugin WooCommerce
-- Mas casos en [horaciodominguez.com](https://horaciodominguez.com)
+I build functional, accessible, and optimized digital solutions. I've been doing this for over 20 years.
 
 ---
 
@@ -59,20 +47,13 @@
 
 ### Stats
 
-<!-- github-readme-stats.vercel.app is often 503; local PNGs generated from GitHub API -->
 <div align="center">
-  <img height="170" src="./assets/stats.png" alt="GitHub stats" />
-  <img height="170" src="./assets/top-langs.png" alt="Top languages" />
-</div>
-
-<br />
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com/?user=horaciodominguez&amp;theme=dark&amp;background=0b0d10&amp;ring=7a9bb8&amp;fire=7a9bb8&amp;currStreakLabel=7a9bb8&amp;sideLabels=e8ecf0&amp;dates=e8ecf0&amp;hide_border=true" alt="GitHub streak" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=horaciodominguez&show_icons=true&hide_border=true&bg_color=0b0d10&title_color=7a9bb8&icon_color=7a9bb8&text_color=e8ecf0&ring_color=7a9bb8&cache_seconds=3600" alt="GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=horaciodominguez&layout=compact&hide_border=true&bg_color=0b0d10&title_color=7a9bb8&text_color=e8ecf0&cache_seconds=3600" alt="Top languages" />
 </div>
 
 ---
 
 <div align="center">
-  <sub>Portfolio 2026 · WordPress / WooCommerce · React / TypeScript</sub>
+  <sub>Portfolio 2026</sub>
 </div>
